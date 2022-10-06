@@ -31,9 +31,6 @@ public class UserServiceImpl implements UserService {
         adapter.excluir(id);
     }
 
-    @Override
-    public List<User> listar() {
-        return adapter.listar();
-    }
+    public List<User> listar() { return adapter.listar(); }
 
 }
